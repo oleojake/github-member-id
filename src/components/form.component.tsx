@@ -14,7 +14,7 @@ export const Form: React.FC<FormProps> = (props) => {
 				placeholder="Enter GitHub username"
 				value={userToFind}
 				onChange={(e) => setUserToFind(e.target.value)}
-				className="px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+				className="px-6 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-lg"
 			/>
 			<button className="px-4 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 active:bg-indigo-500">
 				Search
