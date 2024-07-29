@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer: React.FC = () => {
 	return (
-		<footer className="p-4 text-center">
+		<footer className="p-4 text-center mt-auto">
 			<p className="text-gray-600">
 				"Developed out of a small curiosity from{" "}
 				<a

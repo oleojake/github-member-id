@@ -50,8 +50,8 @@ export const HomePage: React.FC = () => {
 				is the GitHub user: #{userInfo.id}
 			</h1>
 		) : (
-			<h1 className="font-bold bg-slate-100 p-4 rounded-md tracking-tight text-3xl md:text-5xl">
-				Find GitHub User ID
+			<h1 className="font-bold bg-slate-100 p-4 rounded-md tracking-tight w-screen md:w-auto text-3xl md:text-5xl">
+				Find My GitHub ID
 			</h1>
 		);
 	};
@@ -65,7 +65,7 @@ export const HomePage: React.FC = () => {
 	};
 
 	return (
-		<div className="flex flex-col text-center items-center h-screen justify-top pt-20">
+		<div className="flex flex-col text-center items-center h-screen justify-top pt-14">
 			{selectHeader()}
 			<Form
 				userToFind={userToFind}

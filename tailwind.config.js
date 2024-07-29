@@ -5,7 +5,7 @@ export default {
 	theme: {
 		extend: {
 			content: {
-				questionMark: 'url("./src/assets/question-mark.svg")',
+				questionMark: 'url("./assets/question-mark.svg")',
 			},
 		},
 	},
