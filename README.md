@@ -6,6 +6,8 @@ These IDs are incremented sequentially, meaning that users with lower IDs joined
 
 _Developed out of a small curiosity from GitHub user #156575830_
 
+![screen-findmygithubid](./public/readme/screen-findmygithubid.png)
+
 ## Getting Started
 
 To get started with this project, follow these steps:
